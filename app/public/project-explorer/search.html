@@ -18,14 +18,16 @@
         <main>
             <section>
                 <h4>Search Project By</h4>
-                <input type="text" name="searchTerm" placeholder="ProjectName, Authors, Abstract, Tags"><br><br>
-                Search By<br><select name="searchType">
-                            <option value="name">Name</option>
-                            <option value="author">Author</option>
-                            <option value="abstract">Abstract</option>
-                            <option value="tags">Tags</option>
-                         </select><br><br>
-                <input type="submit" value="Search">
+                <form name="searchForm">
+                    <input type="text" name="searchTerm" placeholder="ProjectName, Authors, Abstract, Tags"><br><br>
+                    Search By<br><select name="searchType">
+                                <option value="name">Name</option>
+                                <option value="author">Author</option>
+                                <option value="abstract">Abstract</option>
+                                <option value="tags">Tags</option>
+                            </select><br><br>
+                    <input type="submit" value="Search">
+               </form>
             </section> 
             <h3>Search Results</h3>
             <section>

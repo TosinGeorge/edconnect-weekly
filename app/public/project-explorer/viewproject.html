@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Project Explorer</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"></link>
+    </head>
+    <body> 
+        <main>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-between">
+                <a class= "navbar-brand"href="#">Project Explorer</a>
+                <div class="collapse navbar-collapse">
+                  <form class="form-inline">
+                    <input class="form-control" type="text" placeholder="Search Projects">
+                      <button class="btn btn-outline-light" type="submit">Search</button>
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Submit</a>
+                          </li>
+                        </ul>
+                  </form>
+                </div>
+                <ul class="navbar-nav" >
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign up</a>   
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+            </nav><br><br>
+
+            
+            <div class="container">
+                <h4>Project 1</h4>
+                <form>
+                <div class="form-row justify-content-center card-footer">
+                   <div class="form-group col-3">
+                        <p>Created By<br>Ade Chris</p>
+                    </div>
+                    <div class="form-group col-3">
+                        <p>Date Created<br> 2020-08-30</p>
+                    </div>
+                    <div class="form-group col-3">
+                        <p>Last Updated<br>2020-08-30</p>
+                    </div>
+                    <div><button type="submit" class="btn btn-primary d-flex justify-content-end">Edit Project</button></div>
+                </div><br><br>
+                    
+                <div class="form-row">
+                    <div class="form-group col-6">
+                        <h6>Project Abstract</h6><hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nam venenatis scelerisque velit ut vestibulum. Etiam elit 
+                        ipsum, elementum at tempor in, pulvinar a purus. Quisque 
+                        vel velit nisl. Fusce ultricies tincidunt mi dictum varius. 
+                        </p><br>
+                        
+                        <label input for="inputProjectabstract">Comments</label>
+                        <textarea class="form-control" rows="3" placeholder="Leave a comment"></textarea>
+                        
+                        <button class=" btn btn-primary">Submit</button><hr>
+                        <p class="text-center">No comments added yet</p>
+                    </div>
+
+                    <div class="form-group col-6">
+                        <h6>Project Details</h6><hr>
+                        <div class="card">
+                            <div class="card-header">
+                                Author(s)
+                            </div>
+                            <div class="card-body">
+                                Ade Chris
+                            </div>
+                            <div class="card-footer">
+                                <a href="#">#web</a>
+                            </div>
+                        </div><br>
+                        <div class="card">
+                            <div class="card-header">
+                                 Project Files
+                            </div>
+                            <div class="card-body text-center">
+                                 <p class="card-text">No file uploaded yet</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div> 
+                <div class="card-footer text-right">
+                    Project Explorer@2020. <b>EdConnect</b>
+                </div> 
+            </form>    
+        </div>    
+        </main>
+    </body>
+</html>

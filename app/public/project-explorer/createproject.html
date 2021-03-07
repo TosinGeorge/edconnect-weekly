@@ -34,21 +34,21 @@
                 <div class="form-col">
                     <div class="form-group col-5 mx-auto">
                         <h4>Submit Project</h4>
-                        <label input for="inputProjectname">Project name</label>
-                        <input type="text" class="form-control" placeholder="Enter project name">
+                        <label input for="inputprojectName">Project name</label>
+                        <input type="text" class="form-control" name="projectName"  placeholder="Enter project name">
                     </div>
                     <div class="form-group col-5 mx-auto">
                         <label input for="inputProjectabstract">Project abstract</label>
-                        <textarea class="form-control" rows="3"></textarea>
+                        <textarea class="form-control" name="projectAbstract" rows="3"></textarea>
                     </div>
                     <div class="form-group col-5 mx-auto">
                         <label input for="inputProjectabstract">Author(s)</label>
-                        <input type="text" class="form-control" placeholder="Enter author names (separated by comma)">
+                        <input type="text" class="form-control" name="Author" placeholder="Enter author names (separated by comma)">
                     </div>
                     <div class="form-group col-5 mx-auto">
                         <label input for="inputProjectabstract">Tag(s)</label>
-                        <input type="text" class="form-control" placeholder="Use # to tag project with different topics(e.g #javascript #mongodo">
-                        <a class="btn btn-primary">Continue</a>
+                        <input type="text" class="form-control" name="Tag" placeholder="Use # to tag project with different topics(e.g #javascript #mongodo">
+                        <button class="btn btn-primary" type="submit">Continue</button>
                     </div>   
                 </div>
             </form>
